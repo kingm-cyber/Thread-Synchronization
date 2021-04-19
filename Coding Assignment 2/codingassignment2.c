@@ -1,3 +1,9 @@
+/*
+	Allows user to choose N workers, assigns them each a random time X, and forces the threads to wait for all other threads to be done before being released
+	Created by: Matthew King
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <semaphore.h>
